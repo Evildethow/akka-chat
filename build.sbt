@@ -19,7 +19,7 @@ lazy val server = project.
     name := "akka-chat-server",
     libraryDependencies ++= {
       val akkaStreamVersion = "2.0.3"
-      val akkaVersion = "2.4.2"
+      val akkaVersion = "2.4.4"
 
       Seq(
         "com.typesafe.akka" %% "akka-actor"                           % akkaVersion,
